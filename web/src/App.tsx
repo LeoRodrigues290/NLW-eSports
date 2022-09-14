@@ -10,7 +10,7 @@ function App() {
                 Seu <span className='bg-nlw-gradient bg-clip-text text-transparent'>duo</span> está aqui.
             </h1>
 
-            <div className='grid grid-cols-6 gap-6 mt-16'>
+            <div className='grid grid-cols-6 gap-6 mt-16 '>
 
                 <a href="" className='relative rounded-lg overflow-hidden'>
                     <img src="/game-1.png" alt="League of Legends" />
@@ -65,6 +65,11 @@ function App() {
                         <span className='text-zinc-300 text-sm block mt-1'>4 anúncios</span>
                     </div>
                 </a>
+
+            </div>
+
+            <div className="bg-[#2A2634] px-8 py-6 mt-8 self-stretch rounded-lg">
+
             </div>
         </div >
     )
